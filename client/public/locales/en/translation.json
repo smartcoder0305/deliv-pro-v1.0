@@ -1,0 +1,24 @@
+{
+    "log_in": "Log In",
+    "english": "English",
+    "chinese": "Chinese",
+    "language": "English",
+    "register": "Register",
+    "simple_settings_title": "GET A FREE SHIPPING QUOTE ONLINE",
+    "search": "Search",
+    "search_from_google_map": "Search from google map",
+    "more_about_your_shipment": "More About Your Shipment",
+    "shipment_settings_title": "SHIPMENT",
+    "take_shipment_photo": "Take a photo of your shipment",
+    "shipment_desc": [
+        "Can't take a photo? Then please give us an idea about the dimensions",
+        "or select"
+    ],
+    "maximum_weight_kg": "Maximum Weight (kg)",
+    "dimension_cm": {
+        "length": "Length (cm)",
+        "width": "Width (cm)",
+        "height": "Height (cm)"
+    },
+    "go_back": "Go Back"
+}
