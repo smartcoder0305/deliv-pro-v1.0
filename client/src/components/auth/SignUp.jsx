@@ -15,14 +15,14 @@ const SignUp = () => {
         setFormValues({...formValues, [ev.target.name]: ev.target.value})
     }
     return (
-        <div className='h-screen bg-gradient-to-b from-lime-400 to-green-500 flex items-center'>
+        <div className='h-screen bg-gradient-to-b from-sky-800 to-sky-600 flex items-center'>
             <Card title='SIGN UP'>
                 <InputText type="text" name='companyname' value={formValues.companyname} onChange={onInputChange.bind(this)} placeholder='Company Name' />
                 <InputText type="text" name='companyaddr' value={formValues.companyaddr} onChange={onInputChange.bind(this)} placeholder='Company Address' />
                 <InputText type="text" name='contactperson' value={formValues.contactperson} onChange={onInputChange.bind(this)} placeholder='Contact Person'/>
                 <InputText type="email" name='email' value={formValues.email} onChange={onInputChange.bind(this)} placeholder='Email' />
                 <div className='flex items-center'>
-                    <Link className='grow ml-2 underline text-green-900' to="/signin">Go to Login</Link>
+                    <Link className='grow ml-2 underline text-sky-600' to="/signin">Go to Login</Link>
                     <Button>Sign Up</Button>
                 </div>
             </Card>

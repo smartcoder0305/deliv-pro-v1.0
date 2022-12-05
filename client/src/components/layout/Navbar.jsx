@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className='border-box bg-white flex p-4 w-full border-b-1 border-slate-500 absolute shadow-lg shadow-[rgba(0,0,0,0.2)]'>
             <div className='grow'>
-                Logo
+                <img className='logo' src='logo.png' />
             </div>
             <div className='border-r-2 border-slate-500 pr-2 flex items-center'>
                 <CustomNavLink to="/simple-settings">{t('search')}</CustomNavLink>

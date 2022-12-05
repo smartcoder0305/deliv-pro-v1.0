@@ -11,9 +11,11 @@ import Code from './components/auth/Code';
 import Password from './components/auth/Password';
 import Simple from './components/shipment/Simple';
 import Shipment from './components/shipment/Shipment';
+import User from './components/auth/User';
 
 import GlobalContext from './shared/context/global-context';
 import Results from './components/shipment/Results';
+import Triplist from './components/shipment/Triplist';
 
 const App = () => {
   return (
@@ -28,6 +30,8 @@ const App = () => {
           <Route path="/shipment-settings" element={ <Shipment /> } />
           <Route path="/shipment-results" element={ <Results /> } />
           <Route path="/password" element = { <Password/> } />
+          <Route path="/user" element = { <User/> } />
+          <Route path="/triplist" element = { <Triplist/> } />
         </Routes>
       </Router>
     </GlobalContext.Provider>

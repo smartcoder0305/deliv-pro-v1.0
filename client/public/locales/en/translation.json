@@ -20,5 +20,7 @@
         "width": "Width (cm)",
         "height": "Height (cm)"
     },
-    "go_back": "Go Back"
+    "go_back": "Go Back",
+    "search_results": "Search Results",
+    "trip_list": "List of different trips"
 }
