@@ -11,13 +11,14 @@ const Languagebar = () => {
         setMenu(!menu);
     }
     useEffect(() => {
-        window.addEventListener('click', (ev) => {
-            if(!menuRef.current.contains(ev.target)) {
+        const handleGlobalClick = (ev) => {
+            if(ev.target !== menuRef.current) {
                 setMenu(false);
             }
-        });
+        };
+        window.addEventListener('click', handleGlobalClick);
         return () => {
-            window.removeEventListener('click', () => {});
+            window.removeEventListener('click', handleGlobalClick);
         }
     }, [])
     return (

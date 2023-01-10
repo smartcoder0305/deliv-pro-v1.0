@@ -12,3 +12,9 @@ body {
 .logo {
   width: 100px;
 }
+
+input {
+  color: black;
+}
+
+.alert-danger {background-color: #f87171;}
